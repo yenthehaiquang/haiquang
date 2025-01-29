@@ -6,3 +6,5 @@ int main(){
 }
 
 OUTPUT: 0
+
+-Size of NULL pointer is 8 bytes
