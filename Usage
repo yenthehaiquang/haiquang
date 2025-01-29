@@ -1,0 +1,12 @@
+-It is used to firsthandly initialized a pointer that has not been decided on a value yet.
+-Applied in malloc function:
+
+int main(){
+  int *ptr;
+  ptr=(int*) malloc(2*sizeof(int));
+  if (ptr == NULL)
+    printf("Invalid memory);
+  else
+    printf("Succesfully Allocated");
+  return 0;
+}
