@@ -1,0 +1,11 @@
+int main(){
+  int n= 10;
+  void *ptr = &n;
+
+  printf("%d", *(int*)ptr);
+  return 0;}
+
+OUTPUT: 10
+
+-the void pointer holds the n's address value
+- in the following line; the void pointer became interger typed(changed to). From its original address, it return exact integer value.
