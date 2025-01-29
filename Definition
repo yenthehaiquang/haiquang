@@ -1,0 +1,13 @@
+-A pointer that point to non-existing memory location.
+
+int main (){
+  int *ptr = (int*)malloc(sizeof(int));
+  ...
+  ...
+  free (ptr);
+  return 0;
+}
+
++) malloc allocate a memmory location, then free() deallocate that memory.
++) Pointer ptr still pointing to that location, but it does not exist any more. It becomes a dangling pointer.
++) Pointer also become dangling by being assigned value from a method, because the value from a method is deleted after it is completely executed.
