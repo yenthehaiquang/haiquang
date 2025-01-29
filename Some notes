@@ -1,2 +1,4 @@
 -Derefernecing pointer is not allowed
 -The act of changing type of one pointer is called: Type Casting
+-malloc and calloc function return a void pointer
+-A void pointer is the key ingeredient to make a warhouse for every type of data.
