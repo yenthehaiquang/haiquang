@@ -1,0 +1,8 @@
+-NULL value is 0. But this value is for Poniters only, in world of integer it is not 0.
+int main(){
+  int *ptr = NULL;
+  printf("%d", ptr);
+  return 0;
+}
+
+OUTPUT: 0
